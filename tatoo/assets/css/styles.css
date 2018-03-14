@@ -327,6 +327,7 @@
   border:2px solid white;
   cursor:pointer;
   padding:10px 0px;
+  display:none;
 }
 
 .itemhover .see:hover {
