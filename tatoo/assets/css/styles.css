@@ -108,6 +108,7 @@
   text-align:center;
   background-position:center;
   border-radius:0px;
+  background-position:center;
 }
 
 .aboutus .img {
@@ -163,6 +164,8 @@
   background-color:#171717;
   padding-top:32px;
   padding-bottom:5px;
+  background-size:cover;
+  border:2px solid white;
 }
 
 .advant {
@@ -462,7 +465,7 @@
 .advant .line {
   height:2px;
   width:38px;
-  background-color:#bd232f;
+  background-color:white;
   margin:24px auto;
 }
 
