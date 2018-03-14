@@ -74,10 +74,10 @@
   text-align:center;
   background-position:center;
   border-bottom:2px solid #DC1E2A;
+  padding-top:174px;
 }
 
 .img-cross {
-  margin-top:174px;
 }
 
 .header h1 {
@@ -468,6 +468,7 @@
 @media (max-width: 576px) {
   .header {
     /*padding-bottom:110px;*/
+    padding-top:80px;
   }
 }
 

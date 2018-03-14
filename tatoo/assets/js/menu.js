@@ -24,7 +24,4 @@ $(document).ready(function () {
         //if(width<=991){$(".menunav").toggle("slow");}
         $('html, body').animate({scrollTop: $(attr).offset().top-80}, 550);
     });
-    $( ".toggle-button, .menutextclick" ).click(function() {
-      $( ".menunav" ).toggle("slow");
-    });
 });

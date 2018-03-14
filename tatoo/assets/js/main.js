@@ -24,8 +24,10 @@ $(document).ready(function(){
 });
 $( ".item" ).mouseenter(function() {
     $( this ).find(".itemhover").css('visibility', 'visible');
+    $( this ).find(".see").css('display', 'block');
   }).mouseleave(function() {
     $( this ).find(".itemhover").css('visibility', 'hidden');
+    $( this ).find(".see").css('display', 'none');
   });
     
 });
