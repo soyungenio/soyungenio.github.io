@@ -18,10 +18,11 @@ $(document).ready(function () {
             $(".menu").fadeOut(500);
         }
     });
+    var width = $(window).width();
     //Добавляет плавность перехода меню
      $( ".nav-link, .dropdown-item" ).click(function() {
         var attr = $(this).attr("data");
-        //if(width<=991){$(".menunav").toggle("slow");}
+        if(width<=767){$(".menunav").toggle("slow");}
         $('html, body').animate({scrollTop: $(attr).offset().top-80}, 550);
     });
 });

@@ -59,6 +59,7 @@
 @media (max-width: 767px) {
   .menu .menunav {
     display:none;
+    float:initial !important;
   }
 }
 
@@ -221,7 +222,7 @@
   background-color:rgba(0, 0, 0, 0);
   color:white;
   border-radius:0px;
-  padding:8px 84px;
+  padding:8px 70px;
   padding-left:18px;
 }
 
@@ -256,6 +257,10 @@
   width:278px;
   height:42px;
   color:#d4d4d4;
+}
+
+.nav-item {
+  cursor:pointer;
 }
 
 .rightarrow {
