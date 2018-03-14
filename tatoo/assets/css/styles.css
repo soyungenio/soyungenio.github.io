@@ -23,6 +23,38 @@
   display:none;
 }
 
+.t1 {
+  height:3px;
+  width:30px;
+  background-color:white;
+  margin-top:14px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.t2 {
+  height:3px;
+  width:30px;
+  background-color:white;
+  margin-top:5px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.t4 {
+  height:3px;
+  width:30px;
+  background-color:white;
+  margin-top:5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.fancybox {
+}
+
 .menu a {
   color:white !important;
 }
@@ -356,7 +388,7 @@
   padding:20px 0px;
 }
 
-#CallRequest {
+.CallRequest {
   width:860px;
   display:none;
 }
@@ -371,7 +403,7 @@
   padding-top:0px;
 }
 
-#CallRequest input {
+.CallRequest input {
   max-width:290px;
   margin:33px auto;
   border-radius:0px;
@@ -380,12 +412,12 @@
 }
 
 @media (max-width: 900px) {
-  #CallRequest input {
+  .CallRequest input {
     max-width:280px;
   }
 }
 
-#CallRequest .formbutton {
+.CallRequest .formbutton {
   background-color:white;
   border:initial;
   width:290px;
@@ -397,22 +429,22 @@
 }
 
 @media (max-width: 900px) {
-  #CallRequest .formbutton {
+  .CallRequest .formbutton {
     max-width:280px;
   }
 }
 
-#CallRequest .formleft {
+.CallRequest .formleft {
   padding:95px 0px;
 }
 
 @media (max-width: 900px) {
-  #CallRequest .formleft {
+  .CallRequest .formleft {
     padding:63px 0px !important;
   }
 }
 
-#CallRequest .formright {
+.CallRequest .formright {
   background-size:cover;
   background-image:url("../../assets/img/formright.png");
   text-align:center;
@@ -488,7 +520,7 @@
 }
 
 @media (max-width: 900px) {
-  #CallRequest {
+  .CallRequest {
     max-width:326px;
     width:100%;
     padding:0px 5px;
@@ -543,5 +575,11 @@
   background-color:#DC1E2A;
   margin:95px auto;
   margin-bottom:0px;
+}
+
+.toggle-button {
+  float:left;
+  margin-top:7px;
+  margin-right:8px;
 }
 
