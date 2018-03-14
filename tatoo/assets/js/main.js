@@ -6,8 +6,8 @@ $(document).ready(function(){
     margin:10,
     nav:true,
     dots:false,
-    navText : ['<img src="slider/left.png" class="leftarrow">',
-               '<img src="slider/right.png" class="rightarrow">'],
+    navText : ['<img src="assets/img/slider/left.png" class="leftarrow">',
+               '<img src="assets/img/slider/right.png" class="rightarrow">'],
     responsive:{
         0:{
             items:1,
