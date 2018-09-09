@@ -114,7 +114,9 @@ header .politicainform {
   background-repeat:no-repeat;
   background-position:right -330px top;
 }
-
+.about h1 {
+  font-size:48px;
+}
 .about .text {
   font-size:24px;
   font-family:calibri;
@@ -135,7 +137,6 @@ header .politicainform {
 
 .advants h1 {
   font-size:48px;
-  /*font-family:Arial Regular;*/
 }
 
 .advants .line {
@@ -244,8 +245,12 @@ footer .divid {
 }
 
 @media (max-width: 767px) {
+  body{
+    /*background-color: #e9e9e9;*/
+  }
   header {
-    top: 0px
+    top: 0px;
+    padding-bottom: 142px;
   }
     header h1{
       font-size: 21px;
@@ -256,4 +261,94 @@ footer .divid {
     header .getsize{
       font-size: 23px;
     }
+    header .button {
+      width: 270px;
+      font-size: 25px;
+      margin: auto;
+      margin-top: 100px;
+    }
+    header .mobform {
+      position: absolute;
+      top: 165px;
+    }
+    header form {
+      width: 100%;
+    }
+    header .formdiv {
+      padding: 40px 20px;
+    }
+    header .posName {
+      margin-top: 45px;
+    }
+    header input {
+      width: 100% !important;
+    }
+    header button {
+      width:100%;
+    }
+    header .line{
+      display: block;
+    }
+  .about {
+    margin-top: 0px;
+    background: initial;
+    padding: 26px 0px;
+  }
+    .about h1{
+      font-size: 28px;
+    }
+    .about .text {
+      font-size:17px;
+    }
+    .about .line {
+      height: 5px;
+      width: 42px;
+      margin-bottom: 24px;
+    }
+  .advants {
+    padding: 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+    .advants h1{
+      font-size: 28px;
+    }
+    .advants .line {
+      height: 5px;
+      width: 42px;
+      margin-bottom: 24px;
+    }
+    .advants .head {
+      font-size:24px;
+    }
+    .advants .cement {
+      margin-top: 14px;
+    }
+    .advants .mobadvant{
+      padding: 40px 0px;
+      -webkit-box-shadow: inset 0px 8px 128px -90px rgba(0,0,0,1);
+      -moz-box-shadow: inset 0px 8px 128px -90px rgba(0,0,0,1);
+      box-shadow: inset 0px 8px 128px -90px rgba(0,0,0,1);
+    }
+  .prices {
+      padding-bottom: 60px;
+  }
+  .prices .text h1 {
+    font-size:48px;
+  }
+  .prices .text p {
+    font-size:14px;
+  }
+  .prices .head {
+    font-size:15px;
+  }
+  .prices table {
+    margin-top:10px;
+  }
+  .prices .table td {
+    font-size:15px;
+  }
+  footer {
+    font-size:25px;
+  }
 }

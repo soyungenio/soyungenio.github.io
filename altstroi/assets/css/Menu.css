@@ -3,16 +3,6 @@
   margin-top:14px;
 }
 
-@media (max-width: 767px) {
-  .menu .complogo {
-    display:none;
-  }
-  .menu .mobilelogo{
-    margin: 7px 0px;
-    font-size: 30px
-  }
-}
-
 .menu {
   position:fixed;
   background-color:black;
@@ -23,17 +13,16 @@
 
 .t1 {
   height:3px;
-  width:30px;
-  background-color:white;
+  width:21px;
+  background-color:#21bcef;
   margin-top:14px;
-  margin-left:auto;
   margin-right:auto;
 }
 
 .t2 {
   height:3px;
   width:30px;
-  background-color:white;
+  background-color:#21bcef;
   margin-top:5px;
   margin-left:auto;
   margin-right:auto;
@@ -44,7 +33,7 @@
 .t4 {
   height:3px;
   width:30px;
-  background-color:white;
+  background-color:#21bcef;
   margin-top:5px;
   margin-left:auto;
   margin-right:auto;
@@ -63,31 +52,6 @@
   /*position:absolute;*/
   z-index:9999;
   right:85px;
-}
-
-@media (max-width: 767px) {
-  .menu .mobile {
-    display:block;
-  }
-}
-
-@media (max-width: 767px) {
-  .nav-tabs {
-    margin-top:69px;
-  }
-}
-
-@media (min-width: 767px) {
-  .menu .menunav {
-    float:right;
-  }
-}
-
-@media (max-width: 767px) {
-  .menu .menunav {
-    display:none;
-    float:initial !important;
-  }
 }
 
 .nav-item {
@@ -111,3 +75,25 @@
   margin-right:8px;
 }
 
+@media (max-width: 767px) {
+  .menu .complogo {
+    display:none;
+  }
+  .menu .mobilelogo{
+    margin: 7px 0px;
+    font-size: 30px
+  }
+  .menu .mobile {
+    display:block;
+  }
+  .nav-tabs {
+    margin-top:69px;
+  }
+  .menu .menunav {
+    float:right;
+  }
+  .menu .menunav {
+    display:none;
+    float:initial !important;
+  }
+}

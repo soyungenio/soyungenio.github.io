@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .contactsection input {
     margin:24px;
     margin-top:0px;
@@ -53,10 +53,25 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contactsection input {
     margin:24px;
     margin-top:0px;
+  }
+  .contactsection .line {
+    display:none;
+  }
+  .contactsection .descriptor {
+    font-size: 16px;
+    margin-top: 70px;
+  }
+  .contactsection h2 {
+    margin-top:55px;
+    font:bold 1em Arial;
+    font-size:28px;
+  }
+  .contactsection .formdiv {
+    margin-top:65px;
   }
 }
 
@@ -74,13 +89,7 @@
   font-size:24px;
 }
 
-@media (max-width: 767px) {
-  .line {
-    display:none;
-  }
-}
-
-.line {
+.contactsection .line {
   width:112px;
   height:2px;
   background-color:white;
