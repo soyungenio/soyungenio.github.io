@@ -1,0 +1,113 @@
+.menu .logo {
+  float:left;
+  margin-top:14px;
+}
+
+@media (max-width: 767px) {
+  .menu .complogo {
+    display:none;
+  }
+  .menu .mobilelogo{
+    margin: 7px 0px;
+    font-size: 30px
+  }
+}
+
+.menu {
+  position:fixed;
+  background-color:black;
+  width:100%;
+  z-index:999;
+  color:white !important;
+}
+
+.t1 {
+  height:3px;
+  width:30px;
+  background-color:white;
+  margin-top:14px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.t2 {
+  height:3px;
+  width:30px;
+  background-color:white;
+  margin-top:5px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.t4 {
+  height:3px;
+  width:30px;
+  background-color:white;
+  margin-top:5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.menu a {
+  color:white !important;
+}
+
+.mobile {
+  display:none;
+}
+
+.nav-tabs {
+  border:initial;
+  /*position:absolute;*/
+  z-index:9999;
+  right:85px;
+}
+
+@media (max-width: 767px) {
+  .menu .mobile {
+    display:block;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-tabs {
+    margin-top:69px;
+  }
+}
+
+@media (min-width: 767px) {
+  .menu .menunav {
+    float:right;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu .menunav {
+    display:none;
+    float:initial !important;
+  }
+}
+
+.nav-item {
+  padding:22px 0px;
+  font-size:20px;
+  text-align:center;
+}
+
+.nav-item {
+  cursor:pointer;
+}
+
+.menu .textmenu {
+  margin-top:14px !important;
+  font-size:20px;
+}
+
+.toggle-button {
+  float:left;
+  margin-top:7px;
+  margin-right:8px;
+}
+

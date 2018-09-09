@@ -1,0 +1,100 @@
+.descriptor {
+  font:bold 1em Arial;
+  color:white;
+  font-size:25px;
+  margin-top:90px;
+}
+
+.contactsection {
+  background-size:cover;
+  background-image:url("../../assets/img/contactback.jpg");
+  text-align:center;
+  background-position:center;
+  border-radius:0px;
+  padding-bottom:100px;
+}
+
+.contactsection h2 {
+  color:white;
+  margin-top:60px;
+  line-height:40px;
+  font:bold 1em Arial;
+  font-size:40px;
+}
+
+.contactsection .line {
+  height:2px;
+  width:130px;
+  background-color:#bd232f;
+  margin:35px auto;
+}
+
+.contactsection input {
+  margin-right:55px;
+  background-color:white;
+  color:white;
+  border-radius:0px;
+  padding:6px 70px;
+  padding-left:18px;
+  font-size:19px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contactsection input {
+    margin-right:21px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contactsection input {
+    margin:24px;
+    margin-top:0px;
+    display:inline;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactsection input {
+    margin:24px;
+    margin-top:0px;
+  }
+}
+
+.contactsection .formdiv {
+  margin-top:88px;
+}
+
+.contactsection .formbutton {
+  background-color:#259fed;
+  border:initial;
+  width:340px;
+  height:42px;
+  color:#d4d4d4;
+  text-transform:uppercase;
+  font-size:24px;
+}
+
+@media (max-width: 767px) {
+  .line {
+    display:none;
+  }
+}
+
+.line {
+  width:112px;
+  height:2px;
+  background-color:white;
+  margin-top:20px;
+}
+
+.prices .table thead th {
+  padding:0px !important;
+}
+
+header .formhead {
+  color:white;
+  text-align:left;
+  font:bold 1em Arial;
+  font-size:20px;
+}
+

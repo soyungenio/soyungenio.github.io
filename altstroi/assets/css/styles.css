@@ -1,0 +1,259 @@
+.nopadding {
+  padding:0px !important;
+}
+
+.logo {
+  color:white;
+  font-family:Arial;
+  font-size:42px;
+  font-weight:900;
+}
+
+.logo .letter {
+  color:#25a0ed;
+}
+
+header {
+  background-image:url("../../assets/img/headerback.jpg");
+  background-position:center;
+  background-size:cover;
+  font-family:Arial;
+  position:relative;
+  top:92px;
+  padding-top:70px;
+  font-weight:900;
+}
+
+header h1 {
+  text-align:center;
+  color:white;
+  font-size:36px;
+  line-height:1.1;
+  margin-bottom:90px;
+  font-weight: 900;
+}
+
+header .leavefeedback {
+  text-transform:uppercase;
+  color:white;
+  font-size:60px;
+}
+
+header .getsize {
+  color:white;
+  font-size:42px;
+}
+
+header .button:hover {
+  -webkit-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
+  -moz-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
+  box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
+}
+
+header .button {
+  width:425px;
+  background-color:#2ca3ed;
+  border-radius:40px;
+  color:white;
+  text-align:center;
+  font-size:34px;
+  padding:12px 0px;
+  margin-top:100px;
+  cursor:pointer;
+}
+
+header button {
+  width:350px;
+  background-color:#2ca3ed;
+  color:white;
+  text-align:center;
+  font-size:20px;
+  padding:6px 0px;
+  margin-top:40px;
+  border:initial;
+  border-radius:0px;
+  font-family:Arial;
+  text-transform:uppercase;
+}
+
+header input {
+  width:350px !important;
+  height:40px;
+  margin-top:40px;
+  border-radius:0px !important;
+}
+
+header .posName {
+  margin-top:60px;
+}
+
+header .formdiv {
+  background-color:black;
+  padding-top:70px;
+  padding-bottom:180px;
+  visibility:hidden;
+}
+
+header .line {
+  height:4px;
+  width:45px;
+  margin-top:16px;
+}
+
+header .politicainform {
+  text-align:left;
+  color:white;
+  margin-top:12px;
+  font-family:"Arial Narrow", Arial, sans-serif;
+  font-stretch:ultra-condensed;
+}
+
+.about {
+  margin-top:150px;
+  background-image:url("../../assets/img/backaboutcompany.jpg");
+  background-repeat:no-repeat;
+  background-position:right -330px top;
+}
+
+.about .text {
+  font-size:24px;
+  font-family:calibri;
+  line-height:1.2;
+}
+
+.about .line {
+  height:8px;
+  width:130px;
+  background-color:#25a0ed;
+  margin-bottom:40px;
+}
+
+.advants {
+  margin-bottom:50px;
+  margin-top:70px;
+}
+
+.advants h1 {
+  font-size:48px;
+  /*font-family:Arial Regular;*/
+}
+
+.advants .line {
+  height:8px;
+  width:130px;
+  background-color:#25a0ed;
+  margin-bottom:40px;
+}
+
+.advants .head {
+  text-align:center;
+  font-family:Arial;
+  font-size:30px;
+  line-height:1;
+}
+
+.advants img {
+  margin:0 auto;
+  display:block;
+  margin-top:50px;
+}
+
+.prices {
+  padding-top:30px;
+  padding-bottom:60px;
+}
+
+.prices .text {
+  text-align:center;
+  font:bold 1em Arial;
+}
+
+.prices .text h1 {
+  font-size:48px;
+}
+
+.prices .text p {
+  font-size:18px;
+  text-justify:center;
+}
+
+.prices table {
+  border:4px solid #d0d0d0;
+  margin-top:30px;
+}
+
+.prices .head {
+  font:bold 1em Arial;
+  background-color:#25a0ed;
+  text-align:center;
+  color:white;
+  font-size:20px;
+  padding:2px 0px 2px 0px;
+  border:4px solid #d0d0d0;
+  border-bottom:0px;
+}
+
+.prices .table td {
+  font:bold 1em Arial;
+  background-color:white;
+  text-align:center;
+  color:black;
+  font-size:20px;
+  padding:2px 0px 2px 0px;
+  border:4px solid #d0d0d0;
+}
+
+.prices .table th {
+  border:4px solid #d0d0d0;
+}
+
+.ourworks {
+  background-color:#eceded;
+  padding:20px 0px;
+}
+
+.ourworks h1 {
+  font:Bold 1em Arial;
+  text-align:center;
+  font-size:48px;
+  /*margin:20px 0px;*/
+}
+
+footer {
+  background-color:#131313;
+  text-align:center;
+  color:white;
+  font-size:25px;
+  font-family:Arial;
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+footer .right {
+  float:right;
+  padding-right:10px;
+}
+
+footer .left {
+  float:left;
+  padding-left:10px;
+}
+
+footer .divid {
+  border-left:2px solid;
+}
+
+@media (max-width: 767px) {
+  header {
+    top: 0px
+  }
+    header h1{
+      font-size: 21px;
+    }
+    header .leavefeedback {
+      font-size: 28px;
+    }
+    header .getsize{
+      font-size: 23px;
+    }
+}
