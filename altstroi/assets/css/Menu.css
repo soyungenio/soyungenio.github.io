@@ -125,4 +125,7 @@
     font-family: Arial;
     font-weight: 900;
   }
+  .menu .logo a {
+    margin-top: 0px;
+  }
 }
