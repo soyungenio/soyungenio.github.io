@@ -270,6 +270,7 @@ footer .divid {
     header .mobform {
       position: absolute;
       top: 165px;
+      z-index: -9999;
     }
     header form {
       width: 100%;
@@ -333,22 +334,25 @@ footer .divid {
   .prices {
       padding-bottom: 60px;
   }
-  .prices .text h1 {
-    font-size:48px;
-  }
-  .prices .text p {
-    font-size:14px;
-  }
-  .prices .head {
-    font-size:15px;
-  }
-  .prices table {
-    margin-top:10px;
-  }
-  .prices .table td {
-    font-size:15px;
+    .prices .text h1 {
+      font-size:28px;
+    }
+    .prices .text p {
+      font-size:14px;
+    }
+    .prices .head {
+      font-size:15px;
+    }
+    .prices table {
+      margin-top:10px;
+    }
+    .prices .table td {
+      font-size:15px;
+    }
+  .ourworks h1{
+    font-size: 28px;
   }
   footer {
-    font-size:25px;
+    font-size:16px;
   }
 }

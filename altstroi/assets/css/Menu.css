@@ -1,11 +1,16 @@
-.menu .logo {
+.menu .logo a:hover{
+  color: white !important;
+  text-decoration: none;
+}
+
+.menu .logo a{
   float:left;
   margin-top:14px;
 }
 
 .menu {
   position:fixed;
-  background-color:black;
+  background-color:#191919;
   width:100%;
   z-index:999;
   color:white !important;
@@ -41,6 +46,11 @@
 
 .menu a {
   color:white !important;
+}
+
+.menu a:hover {
+  border: initial !important;
+  color: #21bcef !important;
 }
 
 .mobile {
@@ -87,7 +97,6 @@
     display:block;
   }
   .nav-tabs {
-    margin-top:69px;
   }
   .menu .menunav {
     float:right;
@@ -95,5 +104,25 @@
   .menu .menunav {
     display:none;
     float:initial !important;
+  }
+  .menu .mobmenu{
+    position: absolute;
+    background-color: #131313;
+    top: 59px;
+    left: 0px;
+    height: 3000px;
+  }  
+  .menu .nav-item {
+    font-size: 23px;
+    text-align: left;
+    padding: 5px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu a {
+    color: white !important;
+    padding-left: 0px;
+    font-family: Arial;
+    font-weight: 900;
   }
 }

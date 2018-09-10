@@ -29,5 +29,6 @@ $( document ).ready(function() {
     
     $('header .button').click(function() {
         $(".visibform").css("visibility", "visible");
+        $(".mobform").css("z-index", "initial");
     });
 });
