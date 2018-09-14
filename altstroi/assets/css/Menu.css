@@ -84,8 +84,12 @@
   margin-top:7px;
   margin-right:8px;
 }
-
-@media (max-width: 767px) {
+@media (min-width: 992px ) and (max-width: 1200px){
+  .menu .nav-link{
+    padding: .5rem 6px;
+  }
+}
+@media (max-width: 992px) {
   .menu .complogo {
     display:none;
   }

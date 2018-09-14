@@ -4,7 +4,7 @@
 }
 
 .frame {
-  height:250px;
+  height:450px;
   line-height:250px;
   overflow:hidden;
   margin-top:30px;
@@ -20,7 +20,7 @@
 
 .frame ul li {
   float:left;
-  width:227px;
+  width:auto;
   height:100%;
   margin:0 1px 0 0;
   padding:0;

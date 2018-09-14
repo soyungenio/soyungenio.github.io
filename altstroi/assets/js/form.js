@@ -9,7 +9,7 @@ $( document ).ready(function() {
 			data: data,
 			type: 'POST',
 			success: function(data) {
-				alert("Ваш запрос заявка принята! Ожидайте звонка")
+				alert("Ваш заявка принята! Ожидайте звонка")
 			},
 			error: function(err) {
 				console.log(err)
