@@ -3,6 +3,9 @@ $( document ).ready(function() {
     var $slidee = $frame.children('ul').eq(0);
     var $wrap   = $frame.parent();
 
+    if ($(window).width() < 767) {
+        $("#basic li").css("width", $(window).width());
+     }
     // Call Sly on frame
     $frame.sly({
         horizontal: 1,
