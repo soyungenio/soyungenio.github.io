@@ -1,0 +1,122 @@
+header {
+    background-image:url("../../assets/img/header-background.jpg");
+    background-position:center;
+    background-size:cover;
+    font-family:Arial;
+    position:relative;
+    padding-top:70px;
+    height: 100vh;
+  }
+  
+  header h1 {
+    text-align:center;
+    color:white;
+    font-size:36px;
+    line-height:1.1;
+    margin-bottom:90px;
+    font-weight: 900;
+  }
+  
+  header .leavefeedback {
+    color:black;
+    font-size:50px;
+    font-weight:900;
+    line-height: 1.1;
+  }
+  header  .red{
+    color:#e51a0b;
+  }
+  header .text {
+    color:black;
+    font-size:25px;
+    padding-right: 80px;
+    margin-top: 30px;
+  }
+  
+  /*header .button:hover {
+    -webkit-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
+    -moz-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
+    box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
+  }*/
+  
+  header .button {
+    width:425px;
+    background-color:#e51a0b;
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:34px;
+    padding:12px 0px;
+    margin-top:100px;
+    cursor:pointer;
+  }
+.service-head{
+  font-family:Arial;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  color: #101010;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+  .service-head .head{
+    margin-left: 125px;
+    position: sticky;
+    padding: 10px 0px;
+  }
+  .service-head .rectangle{
+    background-color: #e72b23;
+    width: 91px; 
+    height: 26px;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    z-index: -9999;
+  }
+  .service-head .text{
+    position: relative;
+    left: 25px;
+  }
+.services{
+}
+  .services .wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1920px;
+  }
+  .services .peace{
+    background-color: #e72b23;
+    padding-top: 120px;
+    padding-bottom: 115px;
+    color: white;
+    text-align: center;
+  }
+  .services .peace:hover{
+    background-color: #fafafa;
+    color: black;
+  }
+  .services .peace:hover .line{
+    background-color: #e72b23;
+  }
+  .services .head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: 4px;
+  }
+  .services .line{
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 28px;
+  }
+  .services .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
