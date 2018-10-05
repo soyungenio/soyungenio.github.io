@@ -5,7 +5,6 @@ header {
     font-family:Arial;
     position:relative;
     padding-top:70px;
-    height: 100vh;
   }
   
   header h1 {
@@ -19,20 +18,25 @@ header {
   
   header .leavefeedback {
     color:black;
-    font-size:50px;
+    font-size: 36px;
     font-weight:900;
     line-height: 1.1;
+    letter-spacing: 5px;
   }
   header  .red{
     color:#e51a0b;
   }
   header .text {
     color:black;
-    font-size:25px;
+    font-size: 22px;
     padding-right: 80px;
     margin-top: 30px;
   }
   
+  header .mob-text-center{
+    margin-top: 70px;
+    margin-bottom: 250px;
+  }
   /*header .button:hover {
     -webkit-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
     -moz-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
@@ -40,15 +44,16 @@ header {
   }*/
   
   header .button {
-    width:425px;
-    background-color:#e51a0b;
-    border-radius:40px;
-    color:white;
-    text-align:center;
-    font-size:34px;
-    padding:12px 0px;
-    margin-top:100px;
-    cursor:pointer;
+    width: 335px;
+    background-color: #e51a0b;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 7px 0px;
+    margin-top: 62px;
+    cursor: pointer;
+    letter-spacing: 2px;
   }
 .service-head{
   font-family:Arial;
@@ -175,8 +180,12 @@ header {
     padding: 6px 0px;
   }
 .feedback{
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
+  .feedback .wrapper{
+    display: table;
+    margin-left: 45px;
+  }
   .feedback .text{
     font-size: 25px;
     color: black;
@@ -225,14 +234,40 @@ header {
     margin-top: 20px;
   }
 footer{
-  height: 100px;
   width: 100%;
-  background: rgba(121,11,11,1);
-  background: -moz-linear-gradient(top, rgba(121,11,11,1) 0%, rgba(235,53,25,1) 49%, rgba(121,11,11,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(121,11,11,1)), color-stop(49%, rgba(235,53,25,1)), color-stop(100%, rgba(121,11,11,1)));
-  background: -webkit-linear-gradient(top, rgba(121,11,11,1) 0%, rgba(235,53,25,1) 49%, rgba(121,11,11,1) 100%);
-  background: -o-linear-gradient(top, rgba(121,11,11,1) 0%, rgba(235,53,25,1) 49%, rgba(121,11,11,1) 100%);
-  background: -ms-linear-gradient(top, rgba(121,11,11,1) 0%, rgba(235,53,25,1) 49%, rgba(121,11,11,1) 100%);
-  background: linear-gradient(to bottom, rgba(121,11,11,1) 0%, rgba(235,53,25,1) 49%, rgba(121,11,11,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#790b0b', endColorstr='#790b0b', GradientType=0 );
+  background: rgba(152,14,14,1);
+  background: -moz-linear-gradient(top, rgba(152,14,14,1) 0%, rgba(196,24,24,1) 49%, rgba(152,14,14,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(152,14,14,1)), color-stop(49%, rgba(196,24,24,1)), color-stop(100%, rgba(152,14,14,1)));
+  background: -webkit-linear-gradient(top, rgba(152,14,14,1) 0%, rgba(196,24,24,1) 49%, rgba(152,14,14,1) 100%);
+  background: -o-linear-gradient(top, rgba(152,14,14,1) 0%, rgba(196,24,24,1) 49%, rgba(152,14,14,1) 100%);
+  background: -ms-linear-gradient(top, rgba(152,14,14,1) 0%, rgba(196,24,24,1) 49%, rgba(152,14,14,1) 100%);
+  background: linear-gradient(to bottom, rgba(152,14,14,1) 0%, rgba(196,24,24,1) 49%, rgba(152,14,14,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#980e0e', endColorstr='#980e0e', GradientType=0 );
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
+  footer .wrapper{
+    margin-left: 45px;
+    width: 100%;
+  }
+  footer .logo{
+    float: left;
+  }
+  footer .social{
+    float: left;
+    margin-left: 30px;
+    margin-top: 8px;
+  }
+  footer .number{
+    float: right;
+    margin-top: 10px;
+  }
+  footer .number a{
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  footer .soc-img{
+    margin-left: 10px;
+  }
