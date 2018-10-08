@@ -10,18 +10,33 @@
   width:100%;
   z-index:999;
   color:white !important;
+  display: flex;
+  position: absolute;
+}
+.menu .comp-logo{
+  float: left;
+}
+.menu .number{
+  float: right;
+  margin-top: 24px;
+  margin-right: 80px;
+  font-size: 20px;
+  font-family: "Arial Narrow Bold", "Arial Narrow", "Arial", sans-serif;
+  font-stretch: condensed;
+  font-weight: 700;
 }
 .t1 {
   height:3px;
   width:21px;
-  background-color:#21bcef;
+  background-color:#ff0000;
   margin-top:14px;
   margin-right:auto;
+  margin-left: 10px;
 }
 .t2 {
   height:3px;
   width:30px;
-  background-color:#21bcef;
+  background-color:#ff0000;
   margin-top:5px;
   margin-left:auto;
   margin-right:auto;
@@ -31,7 +46,7 @@
 .t4 {
   height:3px;
   width:30px;
-  background-color:#21bcef;
+  background-color:#ff0000;
   margin-top:5px;
   margin-left:auto;
   margin-right:auto;
@@ -50,10 +65,10 @@
 }
 .nav-tabs {
   border:initial;
-  position:absolute;
-  z-index:9999;
+  position: relative;
   right: 0;
-  left: 90px;
+  left: 30px;
+  float: left;
 }
 .nav-item {
   padding:22px 0px;
@@ -68,9 +83,17 @@
   font-size:20px;
 }
 .toggle-button {
-  float:left;
+  float: right;
   margin-top:7px;
   margin-right:8px;
+}
+.menu .line{
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  float: left;
+  margin-top: 15px;
+  margin-right: 20px;
 }
 @media (min-width: 992px ) and (max-width: 1200px){
   .menu .nav-link{
@@ -78,8 +101,11 @@
   }
 }
 @media (max-width: 992px) {
-  .menu .complogo {
+  .menu .comp-logo {
     display:none;
+  }
+  .menu .number{
+    display: none;
   }
   .menu .mobilelogo{
     margin: 7px 0px;
@@ -97,13 +123,13 @@
     display:none;
     float:initial !important;
   }
-  .menu .mobmenu{
+  /*.menu .mobmenu{
     position: absolute;
     background-color: #131313;
     top: 59px;
     left: 0px;
     height: 3000px;
-  }  
+  }  */
   .menu .nav-item {
     font-size: 23px;
     text-align: left;

@@ -34,8 +34,9 @@ header {
   }
   
   header .mob-text-center{
-    margin-top: 70px;
+    margin-top: 135px;
     margin-bottom: 250px;
+    margin-left: 55px;
   }
   /*header .button:hover {
     -webkit-box-shadow:0px 0px 25px 0px rgba(56,166,234,1);
@@ -232,6 +233,7 @@ header {
     width: 360px;
     height: 50px;
     margin-top: 20px;
+    cursor: pointer;
   }
 footer{
   width: 100%;
@@ -270,4 +272,84 @@ footer{
   }
   footer .soc-img{
     margin-left: 10px;
+  }
+  @media (max-width: 992px) {
+    header {
+      background-position-x: -666px;
+      /*padding-top:0px;*/
+      background-position-y: -53px;
+    }
+    header  .mob-text-center{
+      margin-top: 8px;
+      margin-bottom: 250px;
+      margin-left: 0px;
+    }
+    header .leavefeedback {
+      font-size: 20px;
+    }
+    header .text {
+      font-size: 18px;
+    }
+    header .button {
+      width: 263px;
+      font-size: 19px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .service-head {
+      font-size: 20px;
+      margin-top: -53px;
+    }
+    .service-head .head {
+      margin-left: 0px;
+    }
+    .service-head .text {
+      left: 5px;
+    }
+    .service-head .rectangle {
+      width: 50px;
+      height: 14px;
+    }
+    .services .peace {
+      padding-top: 55px;
+      padding-bottom: 65px;
+    }
+    .services .gray{
+      color: black;
+      background-color: #fafafa;
+    }
+    .services .gray .line {
+      background-color: #e72b23;
+    }
+    .packages .wrapper {
+      margin-top: 45px;
+    }
+    .packages .text {
+      font-size: 17px;
+    }
+    .packages .head {
+      font-size: 32px;
+    }
+    .packages .property .te {
+      font-size: 18px;
+    }
+    .feedback .wrapper {
+      margin-left: 0px;
+    }
+    .feedbackform textarea{
+      display: none;
+    }
+    .feedback .contact-inform {
+      width: 100%;
+      text-align: center;
+      margin-left: 0px;
+    }
+    .feedback form .text {
+      width: 260px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .feedback button {
+      width: 260px;
+    }
   }
