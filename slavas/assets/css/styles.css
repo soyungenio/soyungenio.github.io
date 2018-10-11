@@ -180,6 +180,11 @@ header {
     font-size: 20px;
     padding: 6px 0px;
   }
+  .packages .price  {
+    margin-top: 18px;
+    font-size: 21px;
+    color: #ff0400;
+  }
 .feedback{
   padding-bottom: 50px;
 }
@@ -272,11 +277,18 @@ footer{
   }
   footer .soc-img{
     margin-left: 10px;
+  }  
+  @media (min-width: 992px) {
+    .mobile-task-textarea{
+      display: none;
+    }
+    .comp-task-textarea{
+      display: block;
+    }
   }
   @media (max-width: 992px) {
     header {
-      background-position-x: -666px;
-      /*padding-top:0px;*/
+      background-position-x: 63%;
       background-position-y: -53px;
     }
     header  .mob-text-center{
@@ -336,9 +348,6 @@ footer{
     .feedback .wrapper {
       margin-left: 0px;
     }
-    .feedbackform textarea{
-      display: none;
-    }
     .feedback .contact-inform {
       width: 100%;
       text-align: center;
@@ -351,5 +360,35 @@ footer{
     }
     .feedback button {
       width: 260px;
+    }
+    footer .logo {
+      margin: auto;
+      display: block;
+      float: initial;
+    }
+    footer .wrapper {
+      margin-left: 0px;
+    }
+    footer .social {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      float: unset;
+      display: table;
+    }
+    footer .number {
+      margin: auto;
+      width: 168px;
+      margin-top: 15px;
+      float: initial;
+    }
+    .mobile-task-textarea{
+      display: block;
+      width: 260px;
+      margin-top: 20px;
+      margin-left: 1px;
+    }
+    .comp-task-textarea{
+      display: none;
     }
   }

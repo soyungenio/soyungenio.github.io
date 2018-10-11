@@ -115,6 +115,7 @@
     display:block;
   }
   .nav-tabs {
+    left: 15px;
   }
   .menu .menunav {
     float:right;
@@ -123,13 +124,14 @@
     display:none;
     float:initial !important;
   }
-  /*.menu .mobmenu{
-    position: absolute;
-    background-color: #131313;
-    top: 59px;
-    left: 0px;
+  .menu .mobmenu{
+    float: right;
+    position: fixed;
+    background-color: #232323;
+    top: 0px;
+    right: 0px;
     height: 3000px;
-  }  */
+  }  
   .menu .nav-item {
     font-size: 23px;
     text-align: left;
@@ -142,6 +144,7 @@
     padding-left: 0px;
     font-family: Arial;
     font-weight: 900;
+    float: right;
   }
   .menu .logo a {
     margin-top: 0px;
