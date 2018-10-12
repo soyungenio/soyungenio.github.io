@@ -26,30 +26,28 @@
   font-weight: 700;
 }
 .t1 {
-  height:3px;
-  width:21px;
-  background-color:#ff0000;
-  margin-top:14px;
-  margin-right:auto;
+  height: 5px;
+  width: 45px;
+  background-color: #ff0000;
+  margin-top: 5px;
+  margin-right: auto;
   margin-left: 10px;
 }
 .t2 {
-  height:3px;
-  width:30px;
-  background-color:#ff0000;
-  margin-top:5px;
-  margin-left:auto;
-  margin-right:auto;
-  margin-left:auto;
-  margin-right:auto;
+  height: 5px;
+  width: 45px;
+  background-color: #ff0000;
+  margin-top: 6px;
+  margin-right: auto;
+  margin-left: 10px;
 }
 .t4 {
-  height:3px;
-  width:30px;
-  background-color:#ff0000;
-  margin-top:5px;
-  margin-left:auto;
-  margin-right:auto;
+  height: 5px;
+  width: 30px;
+  background-color: #ff0000;
+  margin-top: 6px;
+  margin-right: 0px;
+  margin-left: auto;
 }
 .menu a {
   color:black !important;
@@ -58,7 +56,7 @@
 }
 .menu a:hover {
   border: initial !important;
-  color: #21bcef !important;
+  color: black !important;
 }
 .mobile {
   display:none;
@@ -95,16 +93,35 @@
   margin-top: 15px;
   margin-right: 20px;
 }
+.menu .close-button{
+  display: none;
+}
 @media (min-width: 992px ) and (max-width: 1200px){
   .menu .nav-link{
     padding: .5rem 6px;
   }
+  .menu .line{
+    margin-right: 10px;
+    width: 30px;
+  }
 }
 @media (max-width: 992px) {
+  .menu{
+    position: fixed;
+    background-color: white;
+    padding-bottom: 5px;
+  }
   .menu .comp-logo {
     display:none;
   }
   .menu .number{
+    display: none;
+    margin-right: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 25px;
+  }
+  .menu .line{
     display: none;
   }
   .menu .mobilelogo{
@@ -123,6 +140,7 @@
   .menu .menunav {
     display:none;
     float:initial !important;
+    margin-top: 85px;
   }
   .menu .mobmenu{
     float: right;
@@ -133,10 +151,13 @@
     height: 3000px;
   }  
   .menu .nav-item {
-    font-size: 23px;
+    font-size: 18px;
     text-align: left;
     padding: 5px 0px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-right: 20px;
+  }
+  .menu .nav-link {
     padding-right: 20px;
   }
   .menu a {
@@ -145,8 +166,20 @@
     font-family: Arial;
     font-weight: 900;
     float: right;
+    margin-top: 10px;
   }
   .menu .logo a {
     margin-top: 0px;
+  }
+  .menu .close-button{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    display: none;
+  }
+  .feedback textarea {
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

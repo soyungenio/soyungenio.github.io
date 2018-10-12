@@ -179,6 +179,7 @@ header {
     color: white;
     font-size: 20px;
     padding: 6px 0px;
+    cursor: pointer;
   }
   .packages .price  {
     margin-top: 18px;
@@ -289,11 +290,11 @@ footer{
   @media (max-width: 992px) {
     header {
       background-position-x: 63%;
-      background-position-y: -53px;
+      /*background-position-y: -10px;*/
     }
     header  .mob-text-center{
-      margin-top: 8px;
-      margin-bottom: 250px;
+      margin-top: 50px;
+      margin-bottom: 150px;
       margin-left: 0px;
     }
     header .leavefeedback {
@@ -310,7 +311,6 @@ footer{
     }
     .service-head {
       font-size: 20px;
-      margin-top: -53px;
     }
     .service-head .head {
       margin-left: 0px;
@@ -347,11 +347,14 @@ footer{
     }
     .feedback .wrapper {
       margin-left: 0px;
+      display: initial;
     }
     .feedback .contact-inform {
-      width: 100%;
+      width: 300px;
       text-align: center;
-      margin-left: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      float: initial;
     }
     .feedback form .text {
       width: 260px;

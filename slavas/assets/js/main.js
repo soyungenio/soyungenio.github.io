@@ -1,14 +1,19 @@
 $( document ).ready(function() {
-    var $frame  = $('#basic');
-    var $slidee = $frame.children('ul').eq(0);
-    var $wrap   = $frame.parent();
-
-    if ($(window).width() < 767) {
-        $("#basic li").css("width", $(window).width());
-     }
-    
     $('header .button').click(function() {
-        $(".visibform").css("visibility", "visible");
-        $(".mobform").css("z-index", "initial");
+        if($(window).width()>992)
+            $('html, body').animate({scrollTop: $(".feedback").offset().top}, 550);
+        else
+            $('html, body').animate({scrollTop: $(".feedback").offset().top-66}, 550);
+    });
+    $('.packages .button').click(function() {
+        var headtext = $(this).prevAll(".head").first().text();
+        var text = $(this).prevAll(".text").first().text();
+        var price = $(this).prevAll(".price").first().text();
+        $("textarea").text(headtext + '\n' + text + '\n' + price);
+
+        if($(window).width()>992)
+            $('html, body').animate({scrollTop: $(".feedback").offset().top}, 550);
+        else
+            $('html, body').animate({scrollTop: $(".feedback").offset().top-66}, 550);
     });
 });
