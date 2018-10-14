@@ -3,13 +3,13 @@ $(document).ready(function () {
         $( ".mobmenu" ).css("visibility","visible");
         $( ".menunav" ).css("visibility","visible");
         $( ".close-button" ).css("visibility","visible");
-        $( ".number" ).css("visibility","visible");
+        $( ".menu .number" ).css("visibility","visible");
     });
     $( ".close-button" ).click(function() {
         $( ".mobmenu" ).css("visibility","hidden");
         $( ".menunav" ).css("visibility","hidden");
         $( ".close-button" ).css("visibility","hidden");
-        $( ".number" ).css("visibility","hidden");
+        $( ".menu .number" ).css("visibility","hidden");
     });
 
     //Добавляет плавность перехода меню
@@ -24,7 +24,7 @@ $(document).ready(function () {
             $( ".mobmenu" ).css("visibility","hidden");
             $( ".menunav" ).css("visibility","hidden");
             $( ".close-button" ).css("visibility","hidden");
-            $( ".number" ).css("visibility","hidden");
+            $( ".menu .number" ).css("visibility","hidden");
          }
     });
 });
