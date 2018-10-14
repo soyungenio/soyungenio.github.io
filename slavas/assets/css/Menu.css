@@ -115,11 +115,13 @@
     display:none;
   }
   .menu .number{
-    display: none;
-    margin-right: 0px;
+    display: block;
+    margin-right: 10px;
     font-size: 20px;
     padding-left: 20px;
     margin-top: 25px;
+    float: initial;
+    visibility: hidden;
   }
   .menu .line{
     display: none;
@@ -132,13 +134,15 @@
     display:block;
   }
   .nav-tabs {
-    left: 15px;
+    right: 0px;
   }
 
   .menu .menunav {
-    display:none;
+    display:block;
     float:right; 
     margin-top: 85px;
+    margin-bottom: 50px;
+    visibility: hidden;
   }
   .menu .mobmenu{
     float: right;
@@ -147,16 +151,16 @@
     top: 0px;
     right: 0px;
     height: 3000px;
+    visibility: hidden;
   }  
   .menu .nav-item {
     font-size: 18px;
     text-align: left;
     padding: 5px 0px;
     padding-right: 0px;
-    padding-right: 20px;
   }
   .menu .nav-link {
-    padding-right: 20px;
+    padding-right: 0px;
   }
   .menu a {
     color: white !important;
@@ -173,7 +177,8 @@
     float: right;
     margin-right: 30px;
     margin-top: 30px;
-    display: none;
+    display: block;
+    visibility: hidden;
   }
   .feedback textarea {
     float: initial;

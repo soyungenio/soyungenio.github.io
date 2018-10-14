@@ -1,13 +1,15 @@
 $(document).ready(function () {
     $( ".toggle-button, .menutextclick" ).click(function() {
-        $( ".menunav" ).toggle("slow");
-        $( ".close-button" ).toggle("slow");
-        $( ".number" ).toggle("slow");
+        $( ".mobmenu" ).css("visibility","visible");
+        $( ".menunav" ).css("visibility","visible");
+        $( ".close-button" ).css("visibility","visible");
+        $( ".number" ).css("visibility","visible");
     });
     $( ".close-button" ).click(function() {
-        $( ".menunav" ).toggle("slow");
-        $( ".close-button" ).toggle("slow");
-        $( ".number" ).toggle("slow");
+        $( ".mobmenu" ).css("visibility","hidden");
+        $( ".menunav" ).css("visibility","hidden");
+        $( ".close-button" ).css("visibility","hidden");
+        $( ".number" ).css("visibility","hidden");
     });
 
     //Добавляет плавность перехода меню
@@ -19,9 +21,10 @@ $(document).ready(function () {
          else{
             var attr = $(this).attr("data");
             $('html, body').animate({scrollTop: $(attr).offset().top-65}, 550);
-            $( ".menunav" ).toggle("slow");
-            $( ".close-button" ).toggle("slow");
-            $( ".number" ).toggle("slow");
+            $( ".mobmenu" ).css("visibility","hidden");
+            $( ".menunav" ).css("visibility","hidden");
+            $( ".close-button" ).css("visibility","hidden");
+            $( ".number" ).css("visibility","hidden");
          }
     });
 });
