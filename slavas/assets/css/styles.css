@@ -5,6 +5,7 @@ header {
     font-family:Arial;
     position:relative;
     padding-top:70px;
+    height: 100vh;
   }
   
   header h1 {
@@ -52,7 +53,7 @@ header {
     text-align: center;
     font-size: 25px;
     padding: 7px 0px;
-    margin-top: 62px;
+    margin-top: 35px;
     cursor: pointer;
     letter-spacing: 2px;
   }
@@ -153,11 +154,18 @@ header {
     margin-top: 18px;
     text-align: center;
     letter-spacing: 2px;
+    height: 130px;
+  }
+  .packages .text span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
   }
   .packages .property{
     margin-top: 10px;
     text-align: left;
     letter-spacing: 2px;
+    height: 60px;
   }
   .packages .property img{
     float: left;
@@ -287,10 +295,38 @@ footer{
       display: block;
     }
   }
+  @media (min-width: 992px ) and (max-width: 1200px){
+    header .leavefeedback {
+      font-size: 20px;
+    }
+    header .text {
+      font-size: 18px;
+    }
+    .packages .text{
+      font-size: 16px;
+      font-family: arial;
+      margin-top: 18px;
+      text-align: center;
+      letter-spacing: 2px;
+      height: 130px;
+    }
+    .packages .property{
+      margin-top: 10px;
+      text-align: left;
+      letter-spacing: 2px;
+      height: 60px;
+    }
+    .packages .property .te{
+      display: flex;
+      padding-left: 17px;
+      font-size: 17px;
+      line-height: 1.3;
+    }
+  }
   @media (max-width: 992px) {
     header {
       background-position-x: 63%;
-      /*background-position-y: -10px;*/
+      height: auto;
     }
     header  .mob-text-center{
       margin-top: 50px;

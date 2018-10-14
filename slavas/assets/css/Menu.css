@@ -134,12 +134,10 @@
   .nav-tabs {
     left: 15px;
   }
-  .menu .menunav {
-    float:right;
-  }
+
   .menu .menunav {
     display:none;
-    float:initial !important;
+    float:right; 
     margin-top: 85px;
   }
   .menu .mobmenu{
