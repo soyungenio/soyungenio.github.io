@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="image.js"></script>
+  </head>
+  <body>
+    <canvas id="myCanvas" ></canvas>
+    <input type="file" class="imagefile" style="display: block;"/>
+    <div class="red">red: <span></span></div>
+    <div class="green">green:  <span></span></div>
+    <div class="blue">blue:  <span></span></div>
+    <fieldset>
+        <legend>rgb settings</legend>
+    
+        <label for="redscroll">red</label>
+        <input type="range" id="redscroll" name="redscroll"
+               min="0" max="255" step="1"/>
+    
+        <label for="greenscroll">green</label>
+        <input type="range" id="greenscroll" name="greenscroll" 
+               min="0" max="255" step="1" />
+
+        <label for="bluescroll">blue</label>
+        <input type="range" id="bluescroll" name="bluescroll" 
+              min="0" max="255" step="1" />
+    
+    </fieldset>
+  </body>
+</html>      
